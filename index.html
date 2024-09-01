@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mineSweeper.css">
+  <script src="mineSweeperScript.js" type="module"></script>
+  <title>Minesweeper</title>
+</head>
+<body>
+  <h3 class="title">Minesweeper</h3>
+
+  <div class="subtext2">
+    <label for="boardSizeInput">Board Size:</label>
+    <input type="number" id="boardSizeInput" value="10">
+    <label for="numberOfMinesInput">Number of Mines:</label>
+    <input type="number" id="numberOfMinesInput" value="3">
+    <button id="startGameButton">Start Game</button>
+</div>
+  <div class="subtext">
+    Mines Left: <span data-mine-count> </span> 
+  </div>
+  <div class="gameEndText">
+  </div>
+  <div class="board"></div>
+</body>
+</html>
